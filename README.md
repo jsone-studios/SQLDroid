@@ -18,7 +18,7 @@ The first version 1.1.0 of my SQLDroid fork will soon be published. A snapshot o
 ```groovy
 repositories {
     maven {
-        url 'https://maven.jsone-studios.de/repository'
+        url 'https://nexus.jsone-studios.de/repository/maven-public'
     }
 }
 
