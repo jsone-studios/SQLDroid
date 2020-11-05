@@ -64,12 +64,7 @@ apply from: 'androidMavenPublish.gradle'
 publishing {
     repositories {
         maven {
-            name "JsoneStudios"
-            url "https://maven.jsone-studios.de/public-${project.version.endsWith('-SNAPSHOT') ? 'snapshot' : 'release'}"
-            credentials {
-                username project.hasProperty('mavenJsoneStudiosUser') ? mavenJsoneStudiosUser : 'dummy'
-                password project.hasProperty('mavenJsoneStudiosPassword') ? mavenJsoneStudiosPassword : 'dummy'
-            }
+            url "CHANGE_TO_YOUR_MAVEN_REPO_URL/${project.version.endsWith('-SNAPSHOT') ? 'snapshot' : 'release'}"
         }
     }
 }

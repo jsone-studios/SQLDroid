@@ -13,19 +13,7 @@ So I started this fork and first moved to gradle as build tool. I stripped out t
 
 ## Download
 
-The first version 1.1.0 of my SQLDroid fork will soon be published. A snapshot of my current work is already available:
-
-```groovy
-repositories {
-    maven {
-        url 'https://nexus.jsone-studios.de/repository/maven-public'
-    }
-}
-
-dependencies {
-    compile 'jsone_studios.sqldroid:sqldroid:1.1.0-SNAPSHOT'
-}
-```
+I do not publish any versions of my SQLDroid fork. To publish artifacts to a maven repository, adjust the `url` for the maven repository in the `build.gradle` file.
 
 ## Usage
 
